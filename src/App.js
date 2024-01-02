@@ -91,7 +91,7 @@ function App() {
             {results.length !== 0 && (
                 <div>
                     <h5 className="mt-3">Results</h5>
-                    <p className="mt-3"><strong>After check, do it again on the <a href="https://genesis.dymension.xyz/" target="_blank">official website</a> with the eligible wallets</strong></p>
+                    <p className="mt-3"><strong>After check, do it again on the <a href="https://genesis.dymension.xyz/" target="_blank" rel="noreferrer">official website</a> with the eligible wallets</strong></p>
                     <h5 className="mb-3">{`Total: ${total.toFixed(2)} $DYM`}</h5>
                     <Table striped bordered hover>
                         <thead>
